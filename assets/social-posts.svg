@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Social media post design preview</title>
+  <desc id="desc">Luxury social post grid preview with gradient cards.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0715"/>
+      <stop offset="1" stop-color="#03040a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#g)"/>
+  <circle cx="260" cy="190" r="240" fill="#9b4dff" opacity=".35"/>
+  <circle cx="945" cy="850" r="330" fill="#18d7ff" opacity=".22"/>
+  <g transform="translate(126 156)" stroke="#ffffff" stroke-opacity=".18" stroke-width="2">
+    <rect width="430" height="430" rx="46" fill="#ffffff" fill-opacity=".07"/>
+    <rect x="500" width="430" height="430" rx="46" fill="#ffffff" fill-opacity=".07"/>
+    <rect y="500" width="430" height="430" rx="46" fill="#ffffff" fill-opacity=".07"/>
+    <rect x="500" y="500" width="430" height="430" rx="46" fill="#ffffff" fill-opacity=".07"/>
+  </g>
+  <text x="170" y="365" font-family="Arial Black, Arial" font-size="80" fill="#fff">LAUNCH</text>
+  <text x="670" y="365" font-family="Arial Black, Arial" font-size="78" fill="#18d7ff">POSTS</text>
+  <text x="170" y="865" font-family="Arial Black, Arial" font-size="74" fill="#ff3bc8">SOCIAL</text>
+  <text x="670" y="865" font-family="Arial Black, Arial" font-size="74" fill="#fff">ADS</text>
+  <text x="170" y="1040" font-family="Arial" font-size="32" letter-spacing="7" fill="#fff" fill-opacity=".65">CREATIVE WORKS BY SATYAM NISHAD</text>
+</svg>

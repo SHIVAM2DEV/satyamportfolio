@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Logo design preview</title>
+  <desc id="desc">Futuristic logo mark collection preview.</desc>
+  <rect width="1200" height="1200" fill="#04040a"/>
+  <circle cx="600" cy="580" r="390" fill="#9b4dff" opacity=".18"/>
+  <circle cx="720" cy="500" r="260" fill="#18d7ff" opacity=".18"/>
+  <g transform="translate(200 190)" fill="none" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 260V60h185c92 0 148 43 148 111 0 66-51 105-138 105H90z" stroke="#18d7ff"/>
+    <path d="M530 60h170l-180 360h185" stroke="#ff3bc8"/>
+    <path d="M90 610h330L210 810h330" stroke="#9b4dff"/>
+    <path d="M570 805c125 0 225-99 225-221S695 363 570 363 345 462 345 584" stroke="#ffffff" stroke-opacity=".75"/>
+  </g>
+  <text x="170" y="1040" font-family="Arial Black, Arial" font-size="82" fill="#fff">IDENTITY MARKS</text>
+  <text x="174" y="1100" font-family="Arial" font-size="28" letter-spacing="8" fill="#fff" fill-opacity=".62">SATYAM NISHAD STUDIO</text>
+</svg>

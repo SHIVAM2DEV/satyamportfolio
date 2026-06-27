@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SATYAM NISHAD - Graphic Designer, Video Editor, and Social Media Creative.">
+  <title>SATYAM NISHAD | Graphic Designer & Video Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-system" aria-hidden="true">
+    <span class="cursor-core"></span>
+    <span class="cursor-trail"></span>
+    <span class="cursor-trail"></span>
+    <span class="cursor-trail"></span>
+    <span class="cursor-trail"></span>
+    <span class="cursor-trail"></span>
+  </div>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand magnetic" href="#hero" aria-label="Satyam Nishad Studio home">
+      <span>SN</span>
+      <strong>Satyam Nishad Studio</strong>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Designs</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#video">Videos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-orbit" aria-hidden="true">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="orb orb-three"></span>
+      </div>
+
+      <div class="floating-tools" aria-hidden="true">
+        <span class="tool-chip">Ps</span>
+        <span class="tool-chip">Ai</span>
+        <span class="tool-chip">Pr</span>
+        <span class="tool-chip">Ae</span>
+        <span class="tool-chip">Cn</span>
+      </div>
+
+      <div class="hero-content hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Creative Works by Satyam Nishad</p>
+          <h1 class="hero-title reveal">
+            <span>SATYAM</span>
+            <span>NISHAD</span>
+          </h1>
+          <div class="hero-subline reveal">
+            <span>Graphic Designer & Video Editor</span>
+            <span>Product posters, catalog layouts, social creatives, and vertical video edits.</span>
+          </div>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary magnetic" href="#projects">View Work</a>
+            <a class="btn btn-ghost magnetic" href="#contact">Hire Me</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal" aria-label="Selected portfolio previews">
+          <img class="hero-media-main" src="assets/logitech.jpeg" alt="Logitech MX Master product landing page design">
+          <img class="hero-media-side" src="assets/gamingconsole.jpeg" alt="Gaming controller product poster design">
+          <img class="hero-media-tall" src="assets/weather.jpeg" alt="Weather app interface poster design">
+        </div>
+      </div>
+
+      <div class="hero-social reveal" aria-label="Social links">
+        <a class="social-dot magnetic" href="https://instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>
+        <a class="social-dot magnetic" href="https://behance.net/" target="_blank" rel="noreferrer" aria-label="Behance">BE</a>
+        <a class="social-dot magnetic" href="https://wa.me/" target="_blank" rel="noreferrer" aria-label="WhatsApp">WA</a>
+      </div>
+
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about">
+        <span></span>
+        <small>Scroll</small>
+      </a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About The Studio</p>
+        <h2>Visual direction shaped around products, feeds, and motion.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="portrait-frame reveal tilt-card">
+          <div class="portrait">
+            <img class="portrait-image" src="assets/satyam.jpeg" alt="Portrait of Satyam Nishad">
+            <div class="portrait-mark">SN</div>
+            <div class="portrait-lines"></div>
+            <p>Designed by Satyam Nishad</p>
+          </div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p>
+            SATYAM NISHAD crafts premium visual systems for creators, brands, and digital campaigns.
+            From high-impact product posters and social media creatives to catalog layouts,
+            sharp reels editing, motion graphics, and cinematic video edits, every frame is
+            built to stop the scroll.
+          </p>
+          <p>
+            Satyam Nishad Studio blends branding instinct, composition, color psychology, and
+            modern editing rhythm to create visuals that feel polished, memorable, and ready for
+            launch.
+          </p>
+
+          <div class="stats">
+            <article>
+              <strong data-count="120">0</strong>
+              <span>Projects completed</span>
+            </article>
+            <article>
+              <strong data-count="45">0</strong>
+              <span>Happy clients</span>
+            </article>
+            <article>
+              <strong data-count="4">0</strong>
+              <span>Years creating</span>
+            </article>
+          </div>
+
+          <div class="tool-stack" aria-label="Creative tools">
+            <span>Photoshop</span>
+            <span>Illustrator</span>
+            <span>Premiere Pro</span>
+            <span>After Effects</span>
+            <span>Canva</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Signature Skills</p>
+        <h2>Services matched to the work in this portfolio.</h2>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card reveal tilt-card">
+          <span class="skill-icon">GD</span>
+          <h3>Product Posters</h3>
+          <p>Landing-page style product visuals for tech, gadgets, apps, and launch campaigns.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <span class="skill-icon">VE</span>
+          <h3>Vertical Video Editing</h3>
+          <p>Fast-paced cuts, cinematic pacing, sound-led edits, and retention-focused structure.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <span class="skill-icon">BR</span>
+          <h3>Catalog Design</h3>
+          <p>Multi-page product catalogs with clean hierarchy, lifestyle imagery, and selling detail.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <span class="skill-icon">MG</span>
+          <h3>Motion Graphics</h3>
+          <p>Animated titles, kinetic layouts, product reveals, and modern motion accents.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <span class="skill-icon">YT</span>
+          <h3>App UI Creatives</h3>
+          <p>Mobile-first interface posters with atmosphere, contrast, and presentation polish.</p>
+        </article>
+        <article class="skill-card reveal tilt-card">
+          <span class="skill-icon">SM</span>
+          <h3>Social Media Creatives</h3>
+          <p>Launch posts, carousels, ads, reels covers, and daily content with brand consistency.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Featured Designs</p>
+        <h2>Product visuals, interface concepts, and launch-ready creative work.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card large reveal">
+          <img src="assets/logitech.jpeg" alt="Logitech MX Master product landing page design">
+          <div class="project-overlay">
+            <span>Product Landing Visual</span>
+            <h3>Logitech MX Master 3S</h3>
+            <a class="project-link magnetic" href="#contact">View Project</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/gamingconsole.jpeg" alt="Gaming controller product poster design">
+          <div class="project-overlay">
+            <span>Product Poster</span>
+            <h3>Dual Seans Controller</h3>
+            <a class="project-link magnetic" href="#contact">View Project</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/weather.jpeg" alt="Weather app UI creative">
+          <div class="project-overlay">
+            <span>App UI Creative</span>
+            <h3>Weather App Concept</h3>
+            <a class="project-link magnetic" href="#contact">View Project</a>
+          </div>
+        </article>
+        <article class="project-card wide reveal">
+          <img src="assets/Green and White Modern Furniture Product Catalog Booklet/1.png" alt="Furniture product catalog cover design">
+          <div class="project-overlay">
+            <span>Catalog Design</span>
+            <h3>Rimberio Furniture Product Catalog</h3>
+            <a class="project-link magnetic" href="#catalog">View Catalog</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <video src="assets/videos/WhatsApp Video 2026-06-27 at 12.50.24 PM.mp4" muted loop playsinline preload="metadata"></video>
+          <div class="project-overlay">
+            <span>Video Editing</span>
+            <h3>Short Form Motion Edit</h3>
+            <a class="project-link magnetic" href="#video">View Video</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <video src="assets/videos/WhatsApp Video 2026-06-27 at 12.28.39 PM.mp4" muted loop playsinline preload="metadata"></video>
+          <div class="project-overlay">
+            <span>Reel Edit</span>
+            <h3>Vertical Story Cut</h3>
+            <a class="project-link magnetic" href="#video">View Video</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="horizontal-showcase reveal" aria-label="Creative categories">
+        <div class="showcase-track">
+          <span>Poster Design</span>
+          <span>Product UI</span>
+          <span>Catalog Layout</span>
+          <span>Reels Editing</span>
+          <span>Motion Graphics</span>
+          <span>Social Creatives</span>
+          <span>Poster Design</span>
+          <span>Product UI</span>
+          <span>Catalog Layout</span>
+          <span>Reels Editing</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalog">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Catalog Design</p>
+        <h2>A complete product catalog arranged for browsing and selling.</h2>
+      </div>
+
+      <div class="catalog-feature reveal">
+        <div class="catalog-cover">
+          <img src="assets/Green and White Modern Furniture Product Catalog Booklet/1.png" alt="Rimberio furniture catalog cover">
+        </div>
+        <div class="catalog-copy">
+          <p>
+            The furniture catalog assets work best as a dedicated section because they show page
+            hierarchy, product range, editorial spacing, and brand consistency across a full booklet.
+          </p>
+          <div class="catalog-points">
+            <span>10-page booklet</span>
+            <span>Furniture product layout</span>
+            <span>Green and white brand system</span>
+          </div>
+          <a class="btn btn-ghost magnetic" href="#contact">Discuss Catalog Work</a>
+        </div>
+      </div>
+
+      <div class="catalog-grid" aria-label="Furniture catalog page previews">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/2.png" alt="Furniture catalog page 2">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/3.png" alt="Furniture catalog page 3">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/4.png" alt="Furniture catalog page 4">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/5.png" alt="Furniture catalog page 5">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/6.png" alt="Furniture catalog page 6">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/7.png" alt="Furniture catalog page 7">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/8.png" alt="Furniture catalog page 8">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/9.png" alt="Furniture catalog page 9">
+        <img class="reveal" src="assets/Green and White Modern Furniture Product Catalog Booklet/10.png" alt="Furniture catalog back page">
+      </div>
+    </section>
+
+    <section class="video section" id="video">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Video Showcase</p>
+        <h2>Vertical edits placed where motion can do the selling.</h2>
+      </div>
+
+      <div class="video-grid reveal">
+        <article class="video-card">
+          <video controls muted playsinline preload="metadata" src="assets/videos/WhatsApp Video 2026-06-27 at 12.28.39 PM.mp4"></video>
+          <span class="play">01</span>
+          <h3>Vertical Story Edit</h3>
+        </article>
+        <article class="video-card">
+          <video controls muted playsinline preload="metadata" src="assets/videos/WhatsApp Video 2026-06-27 at 12.50.24 PM.mp4"></video>
+          <span class="play">02</span>
+          <h3>Short Form Motion Edit</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Client Notes</p>
+        <h2>Work that looks premium and performs on the feed.</h2>
+      </div>
+
+      <div class="testimonial-shell reveal">
+        <button class="slider-btn prev" type="button" aria-label="Previous testimonial">Prev</button>
+        <div class="testimonial-slider">
+          <article class="testimonial active">
+            <p>"Satyam gave our campaign a cinematic identity. The posters and reels looked premium from the first draft."</p>
+            <strong>Aarav Mehta</strong>
+            <span>Founder, Urban Launch</span>
+          </article>
+          <article class="testimonial">
+            <p>"Our thumbnails finally looked sharp, emotional, and clickable. The channel branding became instantly stronger."</p>
+            <strong>Nisha Verma</strong>
+            <span>Content Creator</span>
+          </article>
+          <article class="testimonial">
+            <p>"Satyam Nishad Studio understands social media pace. Clean edits, strong typography, and reliable delivery."</p>
+            <strong>Rohan Singh</strong>
+            <span>Marketing Lead</span>
+          </article>
+        </div>
+        <button class="slider-btn next" type="button" aria-label="Next testimonial">Next</button>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-shell">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Hire Satyam Nishad</p>
+          <h2>Let's create visuals that make your brand impossible to ignore.</h2>
+          <p>For posters, reels, thumbnails, branding, and full social media creative direction, send a short brief and Satyam Nishad Studio will shape the visual language.</p>
+
+          <div class="contact-links">
+            <a href="mailto:hello@satyamnishad.studio">hello@satyamnishad.studio</a>
+            <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://behance.net/" target="_blank" rel="noreferrer">Behance</a>
+            <a class="whatsapp magnetic" href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" action="mailto:hello@satyamnishad.studio" method="post" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Project Type</span>
+            <select name="project">
+              <option>Graphic Designing</option>
+              <option>Video Editing</option>
+              <option>Branding</option>
+              <option>Reels Editing</option>
+              <option>Thumbnail Design</option>
+            </select>
+          </label>
+          <label>
+            <span>Brief</span>
+            <textarea name="brief" rows="5" placeholder="Tell me what you want to create"></textarea>
+          </label>
+          <button class="btn btn-primary magnetic" type="submit">Send Creative Brief</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-line" aria-hidden="true"></div>
+    <p>Designed with creativity by Satyam Nishad.</p>
+    <div class="footer-social">
+      <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://behance.net/" target="_blank" rel="noreferrer">Behance</a>
+      <a href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

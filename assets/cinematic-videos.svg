@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cinematic video preview</title>
+  <desc id="desc">Wide cinematic video frame preview with glowing frame and title.</desc>
+  <rect width="1400" height="900" fill="#030306"/>
+  <path d="M0 0h1400v900H0z" fill="#12121e"/>
+  <circle cx="690" cy="420" r="360" fill="#9b4dff" opacity=".22"/>
+  <circle cx="890" cy="420" r="250" fill="#18d7ff" opacity=".2"/>
+  <g opacity=".8">
+    <rect x="120" y="120" width="1160" height="660" rx="38" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="3"/>
+    <rect x="170" y="170" width="1060" height="560" rx="26" fill="#000" fill-opacity=".32" stroke="#18d7ff" stroke-opacity=".36"/>
+  </g>
+  <path d="M642 360l160 95-160 95z" fill="#fff"/>
+  <path d="M642 360l160 95-160 95z" fill="#18d7ff" opacity=".5"/>
+  <text x="190" y="690" font-family="Arial Black, Arial" font-size="78" fill="#fff">CINEMATIC CUTS</text>
+  <text x="194" y="744" font-family="Arial" font-size="27" letter-spacing="8" fill="#fff" fill-opacity=".6">DESIGNED BY SATYAM NISHAD</text>
+</svg>

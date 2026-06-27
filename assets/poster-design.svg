@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Neon poster design preview</title>
+  <desc id="desc">Abstract purple, blue, and pink poster composition for Satyam Nishad Studio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05050a"/>
+      <stop offset="0.45" stop-color="#15102b"/>
+      <stop offset="1" stop-color="#03040a"/>
+    </linearGradient>
+    <radialGradient id="pink" cx="42%" cy="38%" r="55%">
+      <stop offset="0" stop-color="#ff3bc8"/>
+      <stop offset="1" stop-color="#ff3bc8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="70%" cy="62%" r="55%">
+      <stop offset="0" stop-color="#18d7ff"/>
+      <stop offset="1" stop-color="#18d7ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <circle cx="470" cy="570" r="430" fill="url(#pink)" opacity=".72"/>
+  <circle cx="780" cy="870" r="470" fill="url(#blue)" opacity=".55"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="2">
+    <path d="M135 230h930v1040H135z"/>
+    <path d="M210 305h780v890H210z"/>
+  </g>
+  <g fill="#ffffff">
+    <text x="120" y="740" font-family="Arial Black, Arial" font-size="168" font-weight="900">NEON</text>
+    <text x="120" y="890" font-family="Arial Black, Arial" font-size="152" font-weight="900" fill-opacity=".18">CULTURE</text>
+    <text x="125" y="1040" font-family="Arial" font-size="34" letter-spacing="8">POSTER DESIGN / SATYAM NISHAD</text>
+  </g>
+  <g opacity=".55">
+    <rect x="130" y="1135" width="290" height="8" fill="#ff3bc8"/>
+    <rect x="430" y="1135" width="210" height="8" fill="#18d7ff"/>
+    <rect x="650" y="1135" width="150" height="8" fill="#9b4dff"/>
+  </g>
+</svg>

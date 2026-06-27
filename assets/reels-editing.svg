@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Reels editing preview</title>
+  <desc id="desc">Cinematic reels editing timeline and vertical video frames.</desc>
+  <defs>
+    <linearGradient id="r" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080812"/>
+      <stop offset=".5" stop-color="#171031"/>
+      <stop offset="1" stop-color="#04040a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#r)"/>
+  <circle cx="1080" cy="240" r="300" fill="#ff3bc8" opacity=".25"/>
+  <circle cx="350" cy="710" r="310" fill="#18d7ff" opacity=".22"/>
+  <g transform="translate(190 88)">
+    <rect x="0" y="0" width="310" height="610" rx="42" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".22"/>
+    <rect x="365" y="70" width="310" height="610" rx="42" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".22"/>
+    <rect x="730" y="0" width="310" height="610" rx="42" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".22"/>
+    <path d="M122 295l88 56-88 56z" fill="#18d7ff"/>
+    <path d="M487 365l88 56-88 56z" fill="#ff3bc8"/>
+    <path d="M852 295l88 56-88 56z" fill="#9b4dff"/>
+  </g>
+  <g transform="translate(130 770)">
+    <rect width="1140" height="20" rx="10" fill="#fff" fill-opacity=".13"/>
+    <rect width="280" height="20" rx="10" fill="#ff3bc8"/>
+    <rect x="310" width="380" height="20" rx="10" fill="#18d7ff"/>
+    <rect x="720" width="240" height="20" rx="10" fill="#9b4dff"/>
+  </g>
+  <text x="130" y="720" font-family="Arial Black, Arial" font-size="78" fill="#fff">REELS EDITING</text>
+</svg>
