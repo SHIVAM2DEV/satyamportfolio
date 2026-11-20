@@ -813,6 +813,164 @@ textarea {
   grid-column: span 2;
 }
 
+.buybuycart-card {
+  background: #101411;
+}
+
+.buybuycart-visual,
+.buybuycart-case-art {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  color: #f7f8f2;
+  background:
+    radial-gradient(circle at 76% 34%, rgba(132, 205, 0, 0.25), transparent 24%),
+    linear-gradient(135deg, #111611, #050705 75%);
+}
+
+.buybuycart-visual {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border: 0.35rem solid #78b900;
+}
+
+.buybuycart-logo {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.75rem);
+  font-weight: 950;
+  letter-spacing: -0.06em;
+}
+
+.buybuycart-logo small {
+  display: block;
+  color: #91ca1c;
+  font-size: 0.35em;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+
+.buybuycart-label {
+  margin: 0;
+  color: #a9d934;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.buybuycart-cart {
+  display: grid;
+  place-items: center;
+  width: clamp(5rem, 10vw, 8rem);
+  aspect-ratio: 1.35;
+  border: 0.25rem solid #91ca1c;
+  border-radius: 0.65rem 0.65rem 1.5rem 1.5rem;
+  color: #91ca1c;
+  font-size: clamp(0.8rem, 1.8vw, 1.15rem);
+  font-weight: 950;
+  letter-spacing: 0.12em;
+}
+
+.buybuycart-message {
+  margin: 0;
+  font-size: clamp(1.35rem, 3vw, 2.5rem);
+  font-weight: 950;
+  line-height: 1.08;
+  text-align: center;
+}
+
+.buybuycart-message strong,
+.case-art-copy strong { color: #8bc900; }
+
+.buybuycart-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.buybuycart-benefits span {
+  border: 1px solid rgba(145, 202, 28, 0.55);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  color: #d9eea9;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.buybuycart-case {
+  display: grid;
+  grid-template-columns: minmax(18rem, 1.05fr) minmax(0, 0.95fr);
+  width: min(1180px, 100%);
+  margin-inline: auto;
+  gap: 1rem;
+}
+
+.buybuycart-case-art {
+  min-height: 30rem;
+  padding: clamp(1.5rem, 4vw, 3.25rem);
+  border: 1px solid rgba(145, 202, 28, 0.75);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.case-art-copy {
+  display: grid;
+  width: min-content;
+  margin-top: 3.5rem;
+  font-size: clamp(2rem, 4.2vw, 4.5rem);
+  font-weight: 950;
+  line-height: 0.95;
+  white-space: nowrap;
+}
+
+.case-art-copy em {
+  margin-top: 1.5rem;
+  color: #eaf0dd;
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: normal;
+}
+
+.case-art-bag {
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  display: grid;
+  place-content: center;
+  width: clamp(7.5rem, 18vw, 12rem);
+  aspect-ratio: 0.82;
+  border: 0.35rem solid #1f2821;
+  border-radius: 0.5rem 0.5rem 1.5rem 1.5rem;
+  background: linear-gradient(135deg, #0e120f, #252b24);
+  color: #9ed22e;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 1.4rem 2rem rgba(0,0,0,.45);
+}
+
+.case-art-strip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.9rem 1rem;
+  background: #80bd00;
+  color: #101410;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .project-card img,
 .project-card video {
   width: 100%;
@@ -1263,7 +1421,8 @@ textarea {
   .about-grid,
   .contact-shell,
   .hero-layout,
-  .catalog-feature {
+  .catalog-feature,
+  .buybuycart-case {
     grid-template-columns: 1fr;
   }
 
@@ -1388,6 +1547,15 @@ textarea {
 
   .hero-media {
     min-height: clamp(22rem, 105vw, 30rem);
+  }
+
+  .buybuycart-case-art {
+    min-height: 24rem;
+  }
+
+  .case-art-copy {
+    margin-top: 2.25rem;
+    white-space: normal;
   }
 
   .hero-media-main {
