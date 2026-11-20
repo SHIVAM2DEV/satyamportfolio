@@ -971,6 +971,47 @@ textarea {
   text-transform: uppercase;
 }
 
+.buybuycart-case-art {
+  padding: 0;
+  background: #111;
+}
+
+.buybuycart-case-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.buybuycart-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  width: min(1180px, 100%);
+  margin: 1rem auto 0;
+  gap: 1rem;
+}
+
+.buybuycart-gallery img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  background: #101411;
+  box-shadow: var(--shadow);
+  transition: transform 0.35s ease, border-color 0.35s ease;
+}
+
+.buybuycart-gallery img:hover {
+  transform: translateY(-0.35rem);
+  border-color: rgba(145, 202, 28, 0.8);
+}
+
+.buybuycart-gallery .buybuycart-wide {
+  grid-column: 1 / -1;
+}
+
 .project-card img,
 .project-card video {
   width: 100%;
@@ -1445,7 +1486,8 @@ textarea {
 
   .skill-grid,
   .service-grid,
-  .catalog-grid {
+  .catalog-grid,
+  .buybuycart-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1541,6 +1583,7 @@ textarea {
   .service-grid,
   .project-grid,
   .catalog-grid,
+  .buybuycart-gallery,
   .video-grid {
     grid-template-columns: 1fr;
   }
