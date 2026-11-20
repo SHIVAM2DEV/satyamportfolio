@@ -175,10 +175,11 @@ nextButton?.addEventListener("click", nextTestimonial);
 if (testimonials.length > 1 && !prefersReducedMotion) setInterval(nextTestimonial, 5200);
 
 const canvas = document.getElementById("particle-canvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas?.getContext("2d");
 let particles = [];
 
 function resizeCanvas() {
+  if (!canvas || !ctx) return;
   canvas.width = window.innerWidth * window.devicePixelRatio;
   canvas.height = window.innerHeight * window.devicePixelRatio;
   ctx.setTransform(window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0);
@@ -195,7 +196,7 @@ function resizeCanvas() {
 }
 
 function drawParticles() {
-  if (prefersReducedMotion) return;
+  if (!ctx || prefersReducedMotion) return;
 
   ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
@@ -225,6 +226,8 @@ function drawParticles() {
   requestAnimationFrame(drawParticles);
 }
 
-window.addEventListener("resize", resizeCanvas);
-resizeCanvas();
-drawParticles();
+if (canvas && ctx) {
+  window.addEventListener("resize", resizeCanvas);
+  resizeCanvas();
+  drawParticles();
+}
